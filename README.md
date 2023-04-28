@@ -1,2 +1,2 @@
-# VanilaJStesting
-바니라JS 졸업과제
+# Vanilla JS testing
+바닐라JS 졸업과제
