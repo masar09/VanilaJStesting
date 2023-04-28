@@ -1,150 +1,151 @@
 body {
-  width: 100%;
-  height: 100%;
-}
-
-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.login-form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  padding: 20px;
-  border-radius: 5px;
-}
-.login-form input {
-  width: 300px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border-radius: 5px;
-  font-size: 1em;
-  padding: 5px 10px;
-}
-.login-form :first-child {
-  width: 600px;
-  font-size: 3em;
-  margin-bottom: 20px;
-}
-.login-form :last-child {
-  width: 150px;
-  font-size: 1.5em;
-}
-
-.center-component {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.clock {
-  color: #000;
-  -webkit-text-stroke: 2px #fff;
-  font-size: 7em;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.greeting {
-  color: #000;
-  -webkit-text-stroke: 1px #fff;
-  font-size: 3em;
-  font-weight: 700;
-  text-align: center;
-}
-
-.todo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px;
-}
-.todo input {
-  width: 300px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border-radius: 5px;
-  font-size: 1em;
-  padding: 5px 10px;
-}
-.todo input:focus {
-  outline: none;
-}
-.todo input::placeholder {
-  color: rgb(256, 256, 256, 0.6);
-}
-.todo ul {
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-top: 10px;
-  padding: 5px;
-  border-radius: 5px;
-}
-.todo li {
-  color: #fff;
-  font-size: 1em;
-  margin-bottom: 10px;
-}
-.todo li:last-child {
-  margin-bottom: 0;
-}
-.todo li button {
-  background-color: transparent;
-  border: none;
-  color: #fff;
-  font-size: 0.7em;
-  cursor: pointer;
-  padding-right: 1em;
-}
-
-.weather {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-.weather :nth-child(n) {
-  font-size: 2em;
-  font-weight: 800;
-  -webkit-text-stroke: 0.6px #fff;
-}
-
-.quote {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 10px;
-}
-.quote :first-child {
-  font-size: 1.5em;
-  font-weight: 500;
-  color: rgb(256, 256, 256, 0.6);
-}
-.quote :last-child {
-  font-size: 1em;
-  font-weight: 400;
-  color: rgb(256, 256, 256, 0.6);
-}
-
-.hidden {
-  display: none;
-}
+    width: 100%;
+    height: 100%;
+  }
+  
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .login-form input {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+  .login-form :first-child {
+    width: 600px;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  .login-form :last-child {
+    width: 150px;
+    font-size: 1.5em;
+  }
+  
+  .center-component {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .clock {
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
+    font-size: 7em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .greeting {
+    color: #000;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .todo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  .todo input {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+  .todo input:focus {
+    outline: none;
+  }
+  .todo input::placeholder {
+    color: rgb(256, 256, 256, 0.6);
+  }
+  .todo ul {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .todo li {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  .todo li:last-child {
+    margin-bottom: 0;
+  }
+  .todo li button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 0.7em;
+    cursor: pointer;
+    padding-right: 1em;
+  }
+  
+  .weather {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .weather :nth-child(n) {
+    font-size: 2em;
+    font-weight: 800;
+    -webkit-text-stroke: 0.6px #fff;
+  }
+  
+  .quote {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .quote :first-child {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgb(256, 256, 256, 0.6);
+  }
+  .quote :last-child {
+    font-size: 1em;
+    font-weight: 400;
+    color: rgb(256, 256, 256, 0.6);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
